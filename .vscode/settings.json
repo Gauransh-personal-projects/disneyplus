@@ -1,8 +1,16 @@
 {
     "cSpell.words": [
         "embla",
+        "OPENAI",
         "papareact",
         "tailwindcss",
         "TMDB"
-    ]
+    ],
+    "azureFunctions.deploySubpath": "function",
+    "azureFunctions.postDeployTask": "npm install (functions)",
+    "azureFunctions.projectLanguage": "TypeScript",
+    "azureFunctions.projectRuntime": "~4",
+    "debug.internalConsoleOptions": "neverOpen",
+    "azureFunctions.projectLanguageModel": 4,
+    "azureFunctions.preDeployTask": "npm prune (functions)"
 }
