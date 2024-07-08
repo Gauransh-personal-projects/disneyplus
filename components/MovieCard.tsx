@@ -5,7 +5,9 @@ import Image from 'next/image'
 
 function MovieCard({movie} : {movie: Movie}) {
   return (
-    <div className='relative'>
+    <div className='relative flex-shrink-0 cursor-pointer transform
+    hover:scale-105 transition duration-200 ease-out
+    hover:drop-shadow-lg '>
         <div 
             className='absolute inset-0 bg-gradient-to-b from-gray-200/0
              via-gray-900/10 to-gray-300 dark:to-[#1A1C29]/80 z-10'
