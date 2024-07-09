@@ -13,11 +13,12 @@ This project is a web application that aims to replicate the functionality of th
 ## Technologies Used
 - HTML
 - CSS
-- JavaScript
+- TypeScript
 - React
 - Node.js
-- Express
-- MongoDB
+- Next.js
+- Azure Functions
+- OpenAI
 
 ## Installation
 1. Clone the repository: `git clone https://github.com/your-username/disneyplus.git`
